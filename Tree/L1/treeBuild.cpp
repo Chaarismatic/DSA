@@ -1,6 +1,10 @@
 #include "Inorder.h"
 #include "PreOrder.h"
 #include "PostOrder.h"
+#include "MyOrder1.h"
+#include "MyOrder2.h"
+#include "MyOrder3.h"
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -45,6 +49,12 @@ int main(){
   postOrder(root);
   cout<<endl;
   inOrder(root);
-
+  cout<<"\n";
+  MyOrder1(root);
+  cout<<"\n";
+  MyOrder2(root);
+  cout<<"\n";
+  MyOrder3(root);
+  cout<<"\n";
   return 0;
 }
